@@ -1,0 +1,260 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.block1{
+  /* background-color: lightblue; */
+  max-width: 700px;
+  position: relative;
+}
+.block2 {
+	/* background-image: url("bb.jpeg"); */
+	max-width: 700px;
+	position: relative;
+	border: 1px solid;
+	border-left: none;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	max-width: 1314px;
+	margin: auto;
+  position: relative;
+}
+.block1, .block2 {
+	margin-top: 17%;
+	height: 550px;
+}
+.btn {
+	font-size: 27px;
+	border: none;
+	border-radius: 19px;
+	padding: 4px 33px;
+	margin-right: 35px;
+  background-color: #f7e8e1;
+}
+.btn.b2 {
+	color: #c43232;
+	position: absolute;
+	top: 88%;
+	right: 14%;
+}
+.btn.b1 {
+	color: #330bc2;
+	position: absolute;
+	top: 88%;
+	right: 48%;
+}
+.block1 p {
+	text-align: center;
+	font-size: 23px;
+	margin-top: -14px;
+	border-bottom: 1px solid;
+	padding-bottom: 12px;
+}
+.block1 h2 {
+	text-align: center;
+}
+.block1 img{
+  width: 100%;
+}
+.or {
+	height: 50px;
+	width: 53px;
+	position: absolute;
+	top: 74%;
+	right: 48%;
+}
+/* .login {
+	height: 400px;
+	background-color: #d7dadb;
+	margin: auto;
+	max-width: 400px;
+	margin-top: 79px;
+	border: 2px solid;
+} */
+.user {
+	position: absolute;
+	top: 2%;
+	right: 44%;
+	border: none;
+	border-radius: 19px;
+	font-size: 40px;
+  z-index: 1;
+}
+/* .name {
+	position: absolute;
+	top: 27%;
+	right: 26%;
+	width: 42%;
+	padding: 8px 7px;
+	border: none;
+	border-radius: 10px;
+} */
+.usericon {
+	position: absolute;
+	top: 27%;
+	right: 69%;
+	font-size: 26px;
+	background-color: #fff;
+	border: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+/* .pass {
+	position: absolute;
+	top: 37%;
+	right: 26%;
+	width: 42%;
+	padding: 8px 7px;
+	border: none;
+	border-radius: 10px;
+}
+.passicon {
+	position: absolute;
+	top: 37%;
+	right: 69%;
+	font-size: 26px;
+	background-color: #fff;
+	border: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+} */
+/* .logbtn {
+	position: absolute;
+	top: 51%;
+	right: 26%;
+	width: 49%;
+	padding: 5px 6px;
+	font-size: 26px;
+	opacity: 0.7;
+	border-radius: 28px;
+	border: none;
+	background-color: #da1d1d;
+	color: #fff;
+} */
+/* .block2 span {
+	position: absolute;
+	top: 68%;
+	right: 41%;
+	font-size: 18px;
+} */
+.btn:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+/* .logbtn:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+.block2 span:hover {
+	color: red;
+	cursor: pointer;
+} */
+.form {
+	position: relative;
+	z-index: 0;
+	background: rgba(159, 75, 176, 0.69);
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	margin-left: 18%;
+	margin-right: 0%;
+	margin-top: 5%;
+}
+.form input{
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+
+
+}
+.form button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.form button:hover,.form button:active{
+  background: #43A047;
+
+}
+.form .message{
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 18px;
+
+}
+.form .message a{
+  color: #56D05B;
+  text-decoration: none;
+}
+.form .message a:hover{
+  box-shadow: 0 0 20px 9px #33FFC0;
+  cursor: pointer;
+}
+.form .register-form{
+  display: none;
+}
+.form span {
+	position: absolute;
+	top: 119%;
+	right: 31%;
+	font-size: 24px;
+	color: #b83e3e;
+}
+.form span:hover{
+  cursor: pointer;
+  color: red;
+}
+.info {
+	/* max-width: 500px; */
+	/* margin: auto; */
+	font-size: 18px;
+	/* margin-top: 21%; */
+	text-align: center;
+	position: absolute;
+	top: 34%;
+	right: 62%;
+	background: #e5d09363;
+	color: #fff8db;
+	/* margin: 46px 64px; */
+	background: -webkit-repeating-radial-gradient;
+	padding: 51px 55px;
+}
+.imgg img {
+	width: 100%;
+	height: 100vh;
+}
+.imgg {
+	position: relative;
+	/* background-repeat: repeat; */
+}
+.info:hover {
+	box-shadow: 0 0 25px 11px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+	background: #ffecb5b3;
+	color: black;
+}
+.info h3 {
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+	color: green;
+}
